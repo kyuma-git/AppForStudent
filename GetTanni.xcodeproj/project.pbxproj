@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F23962020CA19CE00EEF94F /* 空白ページ.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F23961F20CA19CE00EEF94F /* 空白ページ.png */; };
+		5F23962320CA2EC200EEF94F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F23962120CA2EC200EEF94F /* ListTableViewController.swift */; };
+		5F23962420CA2EC200EEF94F /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F23962220CA2EC200EEF94F /* ListTableViewController.xib */; };
+		5F23962820CA2FC000EEF94F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F23962720CA2FC000EEF94F /* AddViewController.swift */; };
+		5F23962B20CB4B1B00EEF94F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F23962920CB4B1B00EEF94F /* CollectionViewCell.swift */; };
+		5F23962C20CB4B1B00EEF94F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F23962A20CB4B1B00EEF94F /* CollectionViewCell.xib */; };
+		5FF0F1D720C37BBC00D7963E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F1D620C37BBC00D7963E /* AppDelegate.swift */; };
+		5FF0F1D920C37BBC00D7963E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F1D820C37BBC00D7963E /* ViewController.swift */; };
+		5FF0F1DC20C37BBC00D7963E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F1DA20C37BBC00D7963E /* Main.storyboard */; };
+		5FF0F1DE20C37BBD00D7963E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F1DD20C37BBD00D7963E /* Assets.xcassets */; };
+		5FF0F1E120C37BBD00D7963E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F1DF20C37BBD00D7963E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F23961F20CA19CE00EEF94F /* 空白ページ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空白ページ.png"; sourceTree = "<group>"; };
+		5F23962120CA2EC200EEF94F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		5F23962220CA2EC200EEF94F /* ListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		5F23962720CA2FC000EEF94F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		5F23962920CB4B1B00EEF94F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5F23962A20CB4B1B00EEF94F /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5FF0F1D320C37BBC00D7963E /* GetTanni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetTanni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF0F1D620C37BBC00D7963E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF0F1D820C37BBC00D7963E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FF0F1DB20C37BBC00D7963E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF0F1DD20C37BBD00D7963E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF0F1E020C37BBD00D7963E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF0F1E220C37BBD00D7963E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF0F1D020C37BBC00D7963E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF0F1CA20C37BBC00D7963E = {
+			isa = PBXGroup;
+			children = (
+				5FF0F1D520C37BBC00D7963E /* GetTanni */,
+				5FF0F1D420C37BBC00D7963E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF0F1D420C37BBC00D7963E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0F1D320C37BBC00D7963E /* GetTanni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF0F1D520C37BBC00D7963E /* GetTanni */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0F1D620C37BBC00D7963E /* AppDelegate.swift */,
+				5FF0F1D820C37BBC00D7963E /* ViewController.swift */,
+				5FF0F1DA20C37BBC00D7963E /* Main.storyboard */,
+				5F23962920CB4B1B00EEF94F /* CollectionViewCell.swift */,
+				5F23962A20CB4B1B00EEF94F /* CollectionViewCell.xib */,
+				5F23962720CA2FC000EEF94F /* AddViewController.swift */,
+				5F23962120CA2EC200EEF94F /* ListTableViewController.swift */,
+				5F23962220CA2EC200EEF94F /* ListTableViewController.xib */,
+				5FF0F1DD20C37BBD00D7963E /* Assets.xcassets */,
+				5F23961F20CA19CE00EEF94F /* 空白ページ.png */,
+				5FF0F1DF20C37BBD00D7963E /* LaunchScreen.storyboard */,
+				5FF0F1E220C37BBD00D7963E /* Info.plist */,
+			);
+			path = GetTanni;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF0F1D220C37BBC00D7963E /* GetTanni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF0F1E520C37BBD00D7963E /* Build configuration list for PBXNativeTarget "GetTanni" */;
+			buildPhases = (
+				5FF0F1CF20C37BBC00D7963E /* Sources */,
+				5FF0F1D020C37BBC00D7963E /* Frameworks */,
+				5FF0F1D120C37BBC00D7963E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetTanni;
+			productName = GetTanni;
+			productReference = 5FF0F1D320C37BBC00D7963E /* GetTanni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF0F1CB20C37BBC00D7963E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kyuma Morita";
+				TargetAttributes = {
+					5FF0F1D220C37BBC00D7963E = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FF0F1CE20C37BBC00D7963E /* Build configuration list for PBXProject "GetTanni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF0F1CA20C37BBC00D7963E;
+			productRefGroup = 5FF0F1D420C37BBC00D7963E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF0F1D220C37BBC00D7963E /* GetTanni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF0F1D120C37BBC00D7963E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F23962420CA2EC200EEF94F /* ListTableViewController.xib in Resources */,
+				5FF0F1E120C37BBD00D7963E /* LaunchScreen.storyboard in Resources */,
+				5F23962C20CB4B1B00EEF94F /* CollectionViewCell.xib in Resources */,
+				5FF0F1DE20C37BBD00D7963E /* Assets.xcassets in Resources */,
+				5FF0F1DC20C37BBC00D7963E /* Main.storyboard in Resources */,
+				5F23962020CA19CE00EEF94F /* 空白ページ.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF0F1CF20C37BBC00D7963E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F23962B20CB4B1B00EEF94F /* CollectionViewCell.swift in Sources */,
+				5F23962320CA2EC200EEF94F /* ListTableViewController.swift in Sources */,
+				5FF0F1D920C37BBC00D7963E /* ViewController.swift in Sources */,
+				5F23962820CA2FC000EEF94F /* AddViewController.swift in Sources */,
+				5FF0F1D720C37BBC00D7963E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FF0F1DA20C37BBC00D7963E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF0F1DB20C37BBC00D7963E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF0F1DF20C37BBD00D7963E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF0F1E020C37BBD00D7963E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF0F1E320C37BBD00D7963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF0F1E420C37BBD00D7963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF0F1E620C37BBD00D7963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M896S9ZZ;
+				INFOPLIST_FILE = GetTanni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gettanni.GetTanni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF0F1E720C37BBD00D7963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M896S9ZZ;
+				INFOPLIST_FILE = GetTanni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gettanni.GetTanni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF0F1CE20C37BBC00D7963E /* Build configuration list for PBXProject "GetTanni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF0F1E320C37BBD00D7963E /* Debug */,
+				5FF0F1E420C37BBD00D7963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF0F1E520C37BBD00D7963E /* Build configuration list for PBXNativeTarget "GetTanni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF0F1E620C37BBD00D7963E /* Debug */,
+				5FF0F1E720C37BBD00D7963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF0F1CB20C37BBC00D7963E /* Project object */;
+}
